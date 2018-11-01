@@ -1,7 +1,7 @@
 //function to check email, if email is 'admin@sendit.com' it redirects 
 // to admin page else it redirects to user page.
 
-function checkUsername(){
+function checkEmail(){
 
     let response = document.getElementById("email").value;
     if (response == "admin@sendit.com"){
