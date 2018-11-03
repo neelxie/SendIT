@@ -169,6 +169,9 @@ button:hover{
     line-height: 3.0em;
     font-weight: bolder;
 }
+.admin_button{
+    padding-top: 20px;
+}
 /* page footer */
 .footer{
     text-align: center;
