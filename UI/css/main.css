@@ -39,7 +39,7 @@ a{
     background-color:black;
     display: grid;
 }
-/* store manager would be logo*/
+/* sendIt would be logo*/
 .brand{
     padding: 0px;
     background-color: #ff652f;
@@ -77,6 +77,7 @@ li a{
 #greet{
     text-align: center;
     color: white;
+    font-weight: bold;
 }
 .active{
     background-color: #ff652f;
@@ -135,6 +136,41 @@ button{
 button:hover{
     color: white;
     background-color: #ff652f;
+}
+.make_order{
+    padding-top: 30px;
+}
+.make_order input[type="text"],
+.make_order input[type="address"]{
+    margin: 4px 2px;
+    padding: 8px 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: 2px;
+    font-size: 20px;
+    height: 40%;
+    width: 30%;
+    border-radius: 13px;
+    text-align: center;
+    transition: 0.4s ease-in-out;
+    box-sizing: border-box;
+    background-color: rgb(241, 250, 252);
+}
+.make_order input[type="text"]:hover,
+.make_order input[type="address"]:hover{
+    width: 40%;
+}
+.con_order{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.confirm_order{
+    line-height: 3.0em;
+    font-weight: bolder;
+}
+.admin_button{
+    padding-top: 20px;
 }
 /* page footer */
 .footer{
