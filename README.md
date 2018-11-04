@@ -8,6 +8,7 @@ https://neelxie.github.io/SendIT/UI/
 * HTML, CSS and JAVASCRIPT
 
 # Features
+
  - User
   * Create a user account by signing up.
   * View all your deliveries in transit.
@@ -22,6 +23,17 @@ https://neelxie.github.io/SendIT/UI/
   * View all orders in transit.
   * Change present location of parcel.
   * Change delivery status of order.
+
+#Login
+ - Admin
+  * To sign in as admin use:
+  **Email: admin@sendit.com
+  **Password: <'any'>
+
+ - User
+  * To sign in as a user:
+  **Email: <'any valid email'>
+  **Password: <'any'>
 
 # How to use:
  * Clone git repo to local directory -- https://github.com/neelxie/SendIT.git
