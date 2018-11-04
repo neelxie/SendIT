@@ -119,3 +119,12 @@ body{
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
 }
+@media screen and(min-width:700px){
+    .container{
+        /* Fix the black background on mobile devices. */
+        background-color: #ff652f;
+    }
+    .logo{
+        width: 100%;
+    }
+}
