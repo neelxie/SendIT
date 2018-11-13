@@ -6,29 +6,7 @@ html,body{
 a{
     text-decoration: none;
 }
-/* Change the background color */
-@media screen and(min-width:700px){
-    body{
-        background-color: #ff652f;
-    }
-    table{
-        display: none;
-        width: 100%;
-    }
-    /* navbar container */
-    .navbar{
-        overflow: hidden;
-        background-color: #ff652f;
-    }
-    /* navbar links */
-    .nav a{
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-}
+
 .cont_ain{
     height: 100%;
     width: 100%;
@@ -89,7 +67,7 @@ li a:hover{
 .wrapper{
     background-color: #93dde2;
     width: 820px;
-    height: 580px;
+    height: 450px;
     margin: 0px auto;
     border-radius: 0px 0px 20px 20px;
     display: block;
@@ -113,12 +91,6 @@ td, th{
     height: 203px;
     padding: 10px 1px;
     margin-top: 0px;
-}
-.first_table{
-    margin: 30px 88px;
-}
-.table_title{
-    margin-left: -205px;
 }
 .table-footer{
     padding-top: 8px;
@@ -177,4 +149,53 @@ button:hover{
     text-align: center;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
+}
+@media screen and (max-width:768px){
+    body{
+        background-color: #ff652f;
+    }
+    .brand{
+        background-color: #ff652f;
+    }
+    /* navbar container */
+    .navbar{
+        background-color: #3500d3;
+    }
+    /* navbar links */
+    .nav a{
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .wrapper{
+        display: table-row;
+        margin-left: 0%;
+        overflow: visible;
+        float: left;
+    }
+    table{
+        margin-left: 0px;
+        overflow: visible;
+        width: 100%;
+        float: left;
+        top: 20px;
+        display: block;
+    }
+    td, th{
+        padding: 0%;
+    }
+    h2{
+        float: left;
+    }
+    .footer{
+        display: none;
+    }
+    .make_order{
+        margin-left: 0px;
+        overflow: scroll;
+        width: 100%;
+        float: left;
+    }
 }
