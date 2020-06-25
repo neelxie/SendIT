@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="SEKIDDE DERRICK">
+    <title>SendIT | User</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
+</head>
+
+<body>
+    <div class="con_tain">
+        <div class="brand">
+            <h1>SendIT</h1>
+        </div>
+        <div class="navbar">
+            <ul class="nav">
+                <li class="nav_item"><a href="../index.html">Logout</a></li>
+                <li class="nav_item"><a href="#">Make A New Order</a></li>
+                <li class="nav_item" id="greet"> Make a new parcel delivery order. </li>
+            </ul>
+        </div>
+        <div class="wrapper">
+            <form class="make_order" action="confirm_order.html">
+                <p class="con_order">Input parcel weight(in grams).</p>
+                <input type="text" class="input-weight" placeholder="Enter parcel weight" required/>
+                <p class="con_order">Where do you want it picked up?</p>
+                <input type="address" class="input-address" placeholder="Enter Pick-up address" required/>
+                <p class="con_order">Where do you want it delivered?</p>
+                <input type="address" class="input-address" placeholder="Enter parcel Destination" required/>
+                <p>  <button class="confirm_order">Confirm your order</button>
+                </p>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy 2018 SendIT. <small>All rights Reserved.</small></p>
+    </footer>
+</body>
+
+</html>

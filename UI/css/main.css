@@ -1,0 +1,201 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+/* links */
+a{
+    text-decoration: none;
+}
+
+.cont_ain{
+    height: 100%;
+    width: 100%;
+    margin:0px;
+    padding: 0px;
+    border-radius: 30px;
+    box-shadow: 16px 20px rgb(226, 206, 206);
+    background-color:black;
+    display: grid;
+}
+/* sendIt would be logo*/
+.brand{
+    padding: 0px;
+    background-color: #ff652f;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 70px;
+    display: grid;
+}
+/* navigation bar with links */
+
+.navbar{
+    background-color: #3500d3;
+    height: 30px;
+    widows: 100%;
+    display: grid;
+}
+.nav{
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid white;
+}
+.nav_item{
+    display: inline;
+}
+li a{
+    display: inline;
+    padding: 0px 5px 10px 15px;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+}
+#greet{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.active{
+    background-color: #ff652f;
+}
+li a:hover{
+    background-color: #ff652f;
+    color: white;
+}
+.wrapper{
+    background-color: #93dde2;
+    width: 820px;
+    height: 450px;
+    margin: 0px auto;
+    border-radius: 0px 0px 20px 20px;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    color:black;
+    overflow: auto;
+}
+/* Tables and related elements */
+table{
+    border-collapse: collapse;
+    width: 80%;
+    top:30px;
+    margin: 0 auto;
+}
+td, th{
+    padding: 5px;
+    border: 1px solid white;
+}
+.sales{
+    height: 203px;
+    padding: 10px 1px;
+    margin-top: 0px;
+}
+.table-footer{
+    padding-top: 8px;
+}
+.col{
+    background-color: #ff652f;
+    color: antiquewhite;
+}
+/* button */
+button{
+    border-radius: 5px 5px 6px 5px;
+    color: black;
+    background-color: azure;
+}
+button:hover{
+    color: white;
+    background-color: #ff652f;
+}
+.make_order{
+    padding-top: 30px;
+}
+.make_order input[type="text"],
+.make_order input[type="address"]{
+    margin: 4px 2px;
+    padding: 8px 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: 2px;
+    font-size: 20px;
+    height: 40%;
+    width: 30%;
+    border-radius: 13px;
+    text-align: center;
+    transition: 0.4s ease-in-out;
+    box-sizing: border-box;
+    background-color: rgb(241, 250, 252);
+}
+.make_order input[type="text"]:hover,
+.make_order input[type="address"]:hover{
+    width: 40%;
+}
+.con_order{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.confirm_order{
+    line-height: 3.0em;
+    font-weight: bolder;
+}
+.admin_button{
+    padding-top: 20px;
+}
+/* page footer */
+.footer{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media screen and (max-width:768px){
+    body{
+        background-color: #ff652f;
+    }
+    .brand{
+        background-color: #ff652f;
+    }
+    /* navbar container */
+    .navbar{
+        background-color: #3500d3;
+    }
+    /* navbar links */
+    .nav a{
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .wrapper{
+        display: table-row;
+        margin-left: 0%;
+        overflow: visible;
+        float: left;
+    }
+    table{
+        margin-left: 0px;
+        overflow: visible;
+        width: 100%;
+        float: left;
+        top: 20px;
+        display: block;
+    }
+    td, th{
+        padding: 0%;
+    }
+    h2{
+        float: left;
+    }
+    .footer{
+        display: none;
+    }
+    .make_order{
+        margin-left: 0px;
+        overflow: scroll;
+        width: 100%;
+        float: left;
+    }
+}

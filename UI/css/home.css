@@ -1,0 +1,133 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.con_tain{
+    background-image: url(../img/otha.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.brand{
+    padding: 0px;
+    background-color: #ff652f;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 70px;
+    display: grid;
+}
+.navbar{
+    max-width: 1100px;
+    display: grid;
+    margin: auto;
+}
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 5px;
+}
+.nav_item{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    float: right;
+}
+.nav_item a{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 5px 20px;
+    color: black;
+}
+.nav_item a:hover{
+    font-weight: bold;
+    background-color: #ff652f;
+    color: white;
+    border: 2px;
+}
+.welcome{
+    top: 25%;
+    width: 550px;
+    height: 250px;
+    background: rgba(0, 0, 0, .2);
+    margin: auto;
+    color: white;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 5px;
+    border-radius: 25px;
+    overflow: visible;
+}
+.welcome h1{
+    font-size: 60px;
+}
+.welcome p{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.welcome p a{
+    text-decoration: none;
+    color: white;
+    line-height: 1.5em;
+}
+.welcome p a:hover{
+    background-color: #ff652f;
+    color: white;
+    border: none;
+}
+/*------------handling responsives for home page-----------------*/
+@media(max-width: 768px){
+    .body{
+        width: 100%;
+    }
+    .con_tain{
+        background-image: url(../img/otha.jpg);
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .navbar{
+        margin: 0;
+        width: 100%;
+    }
+    .nav{
+        float: none;
+        margin-left: 0;
+        width: 70%;
+    }
+    .nav_item{
+        border: none;
+        padding: 0;
+        width: 65px;
+        text-align: center;
+    }
+    .nav_item:hover{
+        border: none;
+    }
+    .nav_item a{
+        font-size: 14px;
+        padding-left: 3px;       
+    }
+    .welcome{
+        width: 100%;
+        margin: 0;
+    }
+    .welcome h1{
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 30px;
+    }
+    .welcome p{
+        font-size: 25px;
+        margin-bottom: 150px;
+    }
+}
